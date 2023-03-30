@@ -8,6 +8,8 @@ module.exports = {
     fontFamily: {
       dm: ['DM Sans', "sans-serif"],
       poppins: ['Poppins', "sans-serif"],
+      inter: ['Inter', "sans-serif"],
+      lora: ['Lora', "serif"],
     },
   },
   plugins: [],

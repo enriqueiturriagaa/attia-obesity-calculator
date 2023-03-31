@@ -96,7 +96,7 @@ You are technically Obese 😵‍💫</p>
                 {/* Box */}
                 <div className='bg-[#272727] p-5 rounded lg:w-full'>
                     <h2 className='text-md font-bold mb-2'>Useful resources</h2>
-                    <ul className='text-sm text-[#777E90] underline'>
+                    <ul className='text-sm text-[#777E90] underline list-disc pl-5'>
                         <li className='mb-1'><a href='#' target='_blank'>Peter's website</a></li>
                         <li className='mb-1'><a href='#' target='_blank'>Podcast episode where he shared this info</a></li>
                     </ul>     
@@ -140,13 +140,15 @@ You are technically Obese 😵‍💫</p>
                     <div className='bg-[#272727] p-5 pb-0 rounded'>
                         <p className='text-center font-bold mb-2'>Get Peter’s new book!</p>
                         <div className='flex justify-between'>
-                            <div><ul className='text-sm text-[#777E90] underline'>
-                        <li className='mb-1'><a href='#' target='_blank'>Peter's website</a></li>
-                        <li className='mb-1'><a href='#' target='_blank'>Peter's website</a></li>
-                        <li className='mb-1'><a href='#' target='_blank'>Peter's website</a></li>
-                        <li className='mb-1'><a href='#' target='_blank'>Peter's website</a></li>
-                        <li className='mb-1'><a href='#' target='_blank'>Peter's website</a></li>
-                    </ul>   </div>
+                            <div className='self-stretch flex flex-col justify-center align-middle'>
+                                <ul className='text-sm text-[#777E90] underline list-disc pl-5'>
+                                    <li className='mb-1'><a href='#' target='_blank'>Amazon</a></li>
+                                    <li className='mb-1'><a href='#' target='_blank'>Barnes & Noble</a></li>
+                                    <li className='mb-1'><a href='#' target='_blank'>Books a Million</a></li>
+                                    <li className='mb-1'><a href='#' target='_blank'>Audible</a></li>
+                                    <li className='mb-1'><a href='#' target='_blank'>Google</a></li>
+                                </ul>   
+                            </div>
                             <img src='./book.png' alt='book'/>
                         </div>
                     </div>
